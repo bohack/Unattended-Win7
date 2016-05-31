@@ -6,14 +6,14 @@ Directions:
 Insert flash drive
 
 diskpart  
-list disk  
-[find the flash disk]  
-select disk #  
-clean  
-create partition primary size=4000  
-active  
-format fs=fat32 quick  
-assign  
+ list disk  
+ [find the flash disk]  
+ select disk #  
+ clean  
+ create partition primary size=4000  
+ active  
+ format fs=fat32 quick  
+ assign  
 exit  
 
 xcopy /e <source> <destination>  
